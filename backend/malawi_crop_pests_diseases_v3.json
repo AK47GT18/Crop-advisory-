@@ -1,0 +1,497 @@
+{
+  "malawi_crop_pests_diseases": [
+    {
+      "crop": "Maize",
+      "pest_disease_id": "M1",
+      "common_name": "Fall Armyworm (FAW)",
+      "scientific_name": "Spodoptera frugiperda",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Green or black worm eating the heart of the maize. Leaves are full of big, ragged holes (shot-hole appearance). Wet brown frass (poop) inside the funnel/whorl.",
+      "stage_affected": "Vegetative (V6-V12)",
+      "visual_keys": {"color": "Green/black caterpillar", "pattern": "Ragged holes, massive brown wet frass pellets", "location": "Inside the whorl/funnel"},
+      "environmental_context": "Dry spells stress the maize plant, making it more susceptible. Early planting often coincides with the peak migratory flight of the moths, increasing initial infestation risk.",
+      "key_symptoms": ["Ragged holes in young leaves (shot-hole)", "Presence of caterpillar inside the whorl", "Abundant wet, granular brown frass/excrement", "Inverted white 'Y' mark visible on the caterpillar's head", "Feeding damage on newly unfurled leaves", "Damage often appears in straight rows across leaves that have not yet fully unfurled"],
+      "management_options": {
+        "cultural": "Scout twice weekly, especially from V6, by checking 20 random plants for signs of damage or frass. Apply sand, ash, or soil into the funnel to physically injure or smother the larvae and prevent further feeding. Ensure timely planting and rigorous field sanitation, removing weeds that serve as alternative hosts.",
+        "biological": "Use *Bacillus thuringiensis* (Bt) products or entomopathogenic fungi (e.g., *Metarhizium*) early when larvae are small (L1-L2), as these are contact poisons that must be ingested before the worm burrows deeper into the whorl.",
+        "chemical": "Targeted application of insecticides (e.g., Emamectin Benzoate, Chlorantraniliprole) is necessary when infestation reaches 20% of the plants. Application must be directed deep into the whorl/funnel where the larvae are actively feeding, preferably in the evening when the larvae are most active."
+      }
+    },
+    {
+      "crop": "Maize",
+      "pest_disease_id": "M2",
+      "common_name": "Maize Stalk Borer",
+      "scientific_name": "Busseola fusca",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Plant dies from the inside; the central leaf dries while the outer leaves remain green ('deadheart'). Tunnels found inside the stem when split open.",
+      "stage_affected": "Vegetative (V4-V8)",
+      "visual_keys": {"color": "Cream/pink caterpillar", "pattern": "Dead central shoot, stem tunnels", "location": "Inside the stem (tunnels)"},
+      "environmental_context": "Worse when maize is continuously planted or planted near old maize stubble from the previous season, as the pest overwinters in the stubble and emerges early in the rain season.",
+      "key_symptoms": ["Deadheart (central shoot dies easily)", "Small, neat entry holes on the stem and leaves", "Presence of tunnels/frass inside the stem when split", "Stem easily breaks at the point of infestation", "Less wet frass visible externally than FAW", "Pin-sized holes in young leaves that unfurl cleanly"],
+      "management_options": {
+        "cultural": "Cut stalks close to the ground immediately after harvest and either bury them deep or use them for non-agricultural purposes. Plant Desmodium (a legume) between rows (Push-Pull strategy) to repel the borer moth. Destroy any infested 'deadheart' plants noticed early.",
+        "biological": "Release *Cotesia sesamiae* wasps (if locally available) as they are natural parasitoids of the larvae. Conserve natural enemies by avoiding broad-spectrum sprays.",
+        "chemical": "Granular insecticides (e.g., Chlorpyrifos) applied into the whorl during the early vegetative stage (V5-V7) before the larvae bore into the stem. Systemic seed treatments offer good protection for the first few weeks."
+      }
+    },
+    {
+      "crop": "Maize",
+      "pest_disease_id": "M3",
+      "common_name": "Grey Leaf Spot (GLS)",
+      "scientific_name": "Cercospora zeae-maydis",
+      "type": "Fungal Disease",
+      "farmer_simple_description": "Leaves have long, narrow, greyish-brown spots that have straight edges (rectangular shape) because they are restricted by the leaf veins.",
+      "stage_affected": "Mid to Late Vegetative (V12-Silking)",
+      "visual_keys": {"color": "Grey-brown", "pattern": "Long, angular/rectangular spots", "location": "Starts on lower leaves, moves up"},
+      "environmental_context": "The disease thrives in environments with cool to moderate temperatures (22-30°C), high humidity, and prolonged periods of leaf wetness (due to heavy dew or light, persistent rain).",
+      "key_symptoms": ["Elongated, rectangular lesions (spots) confined by veins", "Lesions are grey to tan-brown in color, often with purple borders on resistant varieties", "Disease starts on the oldest (lower) leaves and moves systematically to new growth", "Severe infection causes large leaf areas to blight/die, reducing photosynthetic area", "Lesions may appear velvety grey on the underside in humid conditions"],
+      "management_options": {
+        "cultural": "Plant resistant hybrids specifically bred for GLS tolerance. Implement a minimum two-year rotation out of maize, using non-grass crops (e.g., beans, tobacco). Bury infected crop residue completely after harvest to reduce fungal spore sources.",
+        "biological": "Not applicable for curative control, but general soil health practices can boost plant immunity.",
+        "chemical": "Foliar fungicides (Triazole or Strobilurin groups) should be applied preventatively or at initial symptom development (when 5% of the lower canopy shows lesions). Multiple applications may be necessary in high-risk years."
+      }
+    },
+      {
+      "crop": "Maize",
+      "pest_disease_id": "M6",
+      "common_name": "Maize Weevil",
+      "scientific_name": "Sitophilus zeamais",
+      "type": "Storage Pest (Insect)",
+      "farmer_simple_description": "Small brown beetles with long snouts boring holes in stored maize. Grain becomes powdery with many small round holes and dust.",
+      "stage_affected": "Post-harvest (Storage)",
+      "visual_keys": {"color": "Dark reddish-brown beetle", "pattern": "Round holes in kernels, powder/dust", "location": "Inside stored grain"},
+      "environmental_context": "Thrives in warm, humid storage conditions (25-30°C, >70% humidity). Damage increases rapidly in poorly ventilated or traditional storage structures. Can destroy 20-30% of grain within 3-6 months.",
+      "key_symptoms": ["Small round holes (1-2mm) in maize kernels", "Fine powdery dust accumulating at bottom of storage container", "Presence of small brown beetles (3-4mm long) with distinctive long snouts", "Hollow or lightweight kernels that float in water", "Webbing and clumped grains in severe infestations", "Musty or off smell in stored grain"],
+      "management_options": {
+        "cultural": "Dry maize thoroughly to below 13% moisture content before storage. Use airtight storage containers (e.g., hermetic bags, metal silos). Clean storage structures thoroughly before use, removing all old grain residue. Store maize on raised platforms away from walls to improve air circulation. Mix grain with wood ash (1:10 ratio) as a traditional protectant.",
+        "biological": "Not typically practical for storage pests, though some parasitoid wasps can be used in bulk storage facilities.",
+        "chemical": "Apply storage insecticides (e.g., Actellic Super dust) following label instructions. Fumigate large storage facilities with Aluminum Phosphide tablets (requires trained personnel). For small-scale farmers, Diatomaceous Earth powder mixed with grain provides safe, long-term protection."
+      }
+    },
+    {
+      "crop": "Maize",
+      "pest_disease_id": "M7",
+      "common_name": "Cutworms",
+      "scientific_name": "Agrotis spp.",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Fat grey or brown caterpillars that cut young maize plants at soil level during night. Plants fall over and die in the morning.",
+      "stage_affected": "Early Vegetative (V1-V4)",
+      "visual_keys": {"color": "Grey, brown, or black caterpillar", "pattern": "Plants cut cleanly at ground level", "location": "Soil surface, base of plant"},
+      "environmental_context": "Most damaging during the early rainy season, especially in fields with heavy weed cover before planting or those following grassland/pasture. Cutworms are nocturnal feeders that hide in soil during the day.",
+      "key_symptoms": ["Young seedlings cut cleanly at or just below soil level", "Plants lying on the ground, often still green and fresh", "Stem shows clean, angled cut marks", "Fat, smooth caterpillars (25-40mm long) found curled in soil near damaged plants during day", "Damage appears overnight in patches or scattered throughout field", "Multiple seedlings may be cut by a single larva in one night"],
+      "management_options": {
+        "cultural": "Clear all weeds and grass from the field at least 2 weeks before planting to starve out larvae. Hand-pick larvae early morning by digging around cut plants. Create protective collars using paper or plastic around seedling stems. Apply wood ash or rough plant materials around plant base as a physical barrier.",
+        "biological": "Encourage insectivorous birds and ground beetles. Apply *Bacillus thuringiensis* (Bt) to soil surface at dusk when larvae are active.",
+        "chemical": "Apply granular insecticides (e.g., Carbofuran, Chlorpyrifos) mixed with planting fertilizer at sowing. Alternatively, spray soil surface and plant base with contact insecticides (e.g., Lambda-cyhalothrin) in the evening when larvae emerge to feed."
+      }
+    },
+    {
+      "crop": "Maize",
+      "pest_disease_id": "M8",
+      "common_name": "Maize Lethal Necrosis (MLN)",
+      "scientific_name": "MCMV + SCMV co-infection",
+      "type": "Viral Disease",
+      "farmer_simple_description": "Plants show dead patches on leaves like burns, entire plant dies quickly within 2-3 weeks. Starts with yellow streaks then turns brown and completely dry.",
+      "stage_affected": "All stages, most severe at V6-Tasseling",
+      "visual_keys": {"color": "Yellow streaks turning brown/necrotic", "pattern": "Dead leaf tissue, premature plant death", "location": "Entire plant, starts on lower leaves"},
+      "environmental_context": "Caused by co-infection of two viruses transmitted by thrips and maize thrips. Spread rapidly in areas with high thrips populations, particularly during hot, dry conditions. Can cause 90-100% yield loss in susceptible varieties.",
+      "key_symptoms": ["Chlorotic (yellow) streaking on leaves, starting from the base", "Rapid progression to necrotic (dead) brown patches resembling fire damage", "Leaves become dry, papery, and die from tip backward", "Stunted plant growth with shortened internodes", "Premature plant death, often before tasseling or during early grain fill", "Poor or completely sterile cobs with few or no kernels", "Entire plant may die within 2-4 weeks of symptom appearance"],
+      "management_options": {
+        "cultural": "Plant certified MLN-resistant or tolerant maize varieties (check with local seed companies). Practice field sanitation by removing and destroying infected plants immediately. Control alternative grass hosts around fields. Practice early planting to avoid peak thrips populations. Use adequate spacing to reduce plant-to-plant virus spread.",
+        "biological": "Not applicable (virus), focus is on thrips vector control.",
+        "chemical": "Seed treatment with systemic neonicotinoid insecticides to control thrips during early growth stages. Foliar application of insecticides targeting thrips during the first 4-6 weeks after emergence, but effectiveness is limited once plants are infected."
+      }
+    },
+    {
+      "crop": "Common Beans",
+      "pest_disease_id": "B6",
+      "common_name": "Bean Root Rot",
+      "scientific_name": "Fusarium solani / Rhizoctonia solani",
+      "type": "Fungal Disease",
+      "farmer_simple_description": "Plants turn yellow and wilt even when soil is wet. Roots are brown, rotten, soft, and break easily when pulled. Red-brown lesions on lower stem.",
+      "stage_affected": "All stages, severe from flowering onward",
+      "visual_keys": {"color": "Brown/black roots, red lesions on stem", "pattern": "Wilting despite adequate moisture", "location": "Root system and lower stem"},
+      "environmental_context": "Favored by waterlogged soils, poor drainage, heavy clay soils, and continuous bean cropping. Disease is worse in fields with compacted soil or where beans are planted in the same location year after year.",
+      "key_symptoms": ["Yellowing of older leaves progressing upward", "Wilting of entire plant during hot part of day, initially recovering at night", "Dark brown to reddish-brown lesions on lower stem near soil line", "Root system is brown, soft, mushy, and easily broken", "Reduction in root mass with blackened, rotted lateral roots", "Plants easily pulled from soil due to destroyed root system", "Stunted growth and poor pod development in surviving plants"],
+      "management_options": {
+        "cultural": "Implement minimum 3-year crop rotation with non-legume crops. Improve drainage through ridging or raised beds. Avoid waterlogging by ensuring proper field slope and drainage channels. Use certified, disease-free seed. Plant when soil temperatures are optimal (above 15°C) for rapid germination. Deep plowing to bury infected residue completely.",
+        "biological": "Apply *Trichoderma* spp. or *Bacillus subtilis* biological fungicides to seed or soil at planting to suppress pathogen populations.",
+        "chemical": "Seed treatment with fungicides containing metalaxyl or carboxin. In-furrow application of fungicides at planting in high-risk fields. Foliar fungicides are generally ineffective as the pathogen attacks below ground."
+      }
+    },
+    {
+      "crop": "Common Beans",
+      "pest_disease_id": "B7",
+      "common_name": "Whiteflies",
+      "scientific_name": "Bemisia tabaci",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Tiny white flying insects clustering under leaves like white powder. Leaves turn yellow with sticky honeydew coating. Plants become weak, stunted, and may show yellow mosaic patterns.",
+      "stage_affected": "Vegetative to Pod-fill",
+      "visual_keys": {"color": "White tiny flying insects", "pattern": "Sticky leaves, sooty mold, yellowing", "location": "Undersides of leaves"},
+      "environmental_context": "Populations explode in hot, dry conditions. Major concern because they transmit Bean Golden Yellow Mosaic Virus (BGYMV) and other diseases. Worse in areas with year-round vegetable/legume production.",
+      "key_symptoms": ["Clouds of tiny white insects fly up when plants are disturbed", "Dense populations of small white flies on leaf undersides", "Sticky, shiny honeydew coating on leaves and pods", "Black sooty mold growing on honeydew, reducing photosynthesis", "Yellowing, curling, and distortion of leaves", "In severe cases, yellow mosaic patterns on leaves indicating virus transmission", "Stunted plant growth and reduced pod set"],
+      "management_options": {
+        "cultural": "Use reflective silver mulch to repel whiteflies (effective in small plots). Remove and destroy heavily infested plants. Control weeds that serve as alternative hosts. Plant whitefly-resistant varieties if available. Use physical barriers like fine netting in nurseries or small gardens.",
+        "biological": "Conserve natural enemies including lady beetles, lacewings, and parasitoid wasps (*Encarsia* and *Eretmocerus* species). Apply neem oil or insecticidal soap for contact control without harming beneficials.",
+        "chemical": "Systemic insecticides (e.g., Imidacloprid) applied to soil or as foliar spray. Rotate insecticide modes of action to prevent resistance. Target the underside of leaves where whiteflies congregate. Note: chemical control is challenging due to rapid reproduction and resistance development."
+      }
+    },
+    {
+      "crop": "Groundnuts",
+      "pest_disease_id": "G6",
+      "common_name": "Groundnut Leaf Miner",
+      "scientific_name": "Aproaerema modicella",
+      "type": "Insect Pest",
+      "farmer_simple_description": "White winding trails or tunnels inside leaves like snake paths. Leaves dry up, turn brown, and fall early. Small black or grey moths hover around plants at dusk.",
+      "stage_affected": "Vegetative to Pod-fill",
+      "visual_keys": {"color": "White/silver serpentine mines", "pattern": "Winding tunnels in leaf tissue", "location": "Inside leaf between upper and lower surfaces"},
+      "environmental_context": "Becomes serious during extended dry periods. Damage reduces photosynthetic area, leading to poor pod filling. Can cause 30-50% yield loss in severe infestations if left unmanaged.",
+      "key_symptoms": ["Serpentine (winding, snake-like) white or silver tunnels visible inside leaves", "Mines start narrow and widen as the larva grows", "Brown or black frass (excrement) visible inside the mine", "Affected leaf areas turn brown and papery", "Severe infestation causes premature leaf drop (defoliation)", "Small (10-15mm) grey or black moths visible at dusk", "Larvae visible as tiny pale caterpillars when leaf is held up to light"],
+      "management_options": {
+        "cultural": "Scout fields regularly, especially during dry spells. Remove and destroy heavily infested leaves to reduce population buildup. Practice crop rotation with non-host crops. Early planting to avoid peak pest periods. Maintain adequate soil moisture through irrigation or mulching to reduce plant stress.",
+        "biological": "Conserve parasitoid wasps that attack leaf miner larvae inside mines. Apply *Bacillus thuringiensis* (Bt) when larvae are still young and accessible.",
+        "chemical": "Systemic insecticides (e.g., Dimethoate, Profenofos) are most effective as they penetrate leaf tissue to reach larvae inside mines. Apply when damage first appears and repeat at 10-14 day intervals if infestation persists. Contact insecticides are ineffective as larvae are protected inside the leaf."
+      }
+    },
+    {
+      "crop": "Groundnuts",
+      "pest_disease_id": "G7",
+      "common_name": "Aflatoxin Contamination",
+      "scientific_name": "Aspergillus flavus / A. parasiticus",
+      "type": "Fungal Disease (Mycotoxin)",
+      "farmer_simple_description": "Pods and kernels covered with green, yellow-green, or grey-green powder mold. Makes groundnuts poisonous, bitter tasting, and unmarketable. Dangerous to eat.",
+      "stage_affected": "Late pod-fill to Post-harvest",
+      "visual_keys": {"color": "Yellow-green to grey-green mold", "pattern": "Powdery fungal growth on kernels", "location": "On and inside pods and kernels"},
+      "environmental_context": "Develops under drought stress during pod-filling, poor storage conditions (high moisture, warm temperatures), and damage from pests creating entry points. Aflatoxin is a deadly toxin that causes liver cancer and immune suppression.",
+      "key_symptoms": ["Visible yellow-green, grey-green, or white mold growth on kernels", "Discolored, shriveled, or damaged kernels", "Musty, moldy odor from pods or stored nuts", "Bitter or off-taste in affected kernels", "Kernels may appear normal externally but contaminated internally (toxin invisible)", "Poor kernel fill in drought-stressed plants", "Insect or mechanical damage providing fungal entry points"],
+      "management_options": {
+        "cultural": "Plant drought-tolerant varieties and ensure adequate irrigation during pod-filling. Harvest at proper maturity (not over-ripe) to reduce field exposure. Dry groundnuts rapidly to below 10% moisture within 48 hours of harvest. Remove damaged, shriveled, or discolored kernels during sorting (hand-picking or flotation). Store in clean, dry, well-ventilated structures using hermetic bags or containers.",
+        "biological": "Apply *Aflasafe* (biocontrol product containing non-toxigenic *Aspergillus* strains) to soil before flowering to competitively exclude toxin-producing strains.",
+        "chemical": "No effective chemical control exists for aflatoxin itself. Focus on preventing fungal infection through pre-harvest fungicide applications in high-risk years and insecticide control to reduce pod damage that creates infection courts."
+      }
+    },
+    {
+      "crop": "Rice",
+      "pest_disease_id": "R6",
+      "common_name": "Rice Bug (Stink Bug)",
+      "scientific_name": "Leptocorisa oratorius",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Green or brown shield-shaped bugs sucking milk from developing grains. Grains become empty, chalky white, or partially filled. Strong bad smell when bugs are disturbed.",
+      "stage_affected": "Milking to Dough stage (Grain filling)",
+      "visual_keys": {"color": "Green or brown elongated bug", "pattern": "Empty or chalky grains", "location": "On panicles during milking stage"},
+      "environmental_context": "Most damaging during the milking stage when grains are soft and filling. Bugs migrate from wild grasses and early-planted fields to later crops. Heavy rains can wash bugs into fields from surrounding vegetation.",
+      "key_symptoms": ["Presence of elongated (15-20mm), slender green or brown bugs on panicles", "Bugs insert needle-like mouthparts into developing grains to suck contents", "Partially filled or completely empty grains (chaffy grains)", "Grains with chalky or opaque appearance instead of translucent", "Discolored spots on grains where bugs fed", "Strong, pungent odor released when bugs are disturbed", "Reduced grain weight and poor milling quality"],
+      "management_options": {
+        "cultural": "Synchronize planting in the area to avoid staggered maturity that allows bugs to move between fields. Remove wild grasses and weeds around field margins that serve as breeding sites. Use light traps to monitor and mass-trap adult bugs. Practice community-wide management for best results.",
+        "biological": "Conserve egg parasitoids and predatory insects. Encourage ducks to forage in the field during the day (ducks eat rice bugs).",
+        "chemical": "Apply insecticides (e.g., Malathion, Lambda-cyhalothrin) when bug populations exceed threshold (1-2 bugs per panicle) during milking stage. Spray in the early morning or late evening when bugs are most active. Repeat application may be needed at 7-10 day intervals."
+      }
+    },
+    {
+      "crop": "Rice",
+      "pest_disease_id": "R7",
+      "common_name": "Bacterial Leaf Blight (BLB)",
+      "scientific_name": "Xanthomonas oryzae pv. oryzae",
+      "type": "Bacterial Disease",
+      "farmer_simple_description": "Long yellow to white stripes on leaves starting from leaf tips or edges. Leaves dry up quickly from tip downward. Yellow bacterial ooze visible on leaves in early morning dew.",
+      "stage_affected": "Tillering to Heading",
+      "visual_keys": {"color": "Yellow to white leaf stripes", "pattern": "Wave-like lesion margins, tip burn", "location": "Leaf tips and edges"},
+      "environmental_context": "Favored by high humidity, warm temperatures (25-34°C), and high nitrogen fertilization. Spreads rapidly during typhoons or heavy storms through rain splash and wind-blown water. Bacteria enter through hydathodes (water pores) and wounds.",
+      "key_symptoms": ["Lesions start at leaf tips or edges as water-soaked, pale green areas", "Lesions expand into yellow or white stripes with wavy margins", "Affected areas dry up, turning tan or grey-white from tip backward", "Yellow bacterial ooze (exudate) visible on lesions in early morning", "Systemic infection causes 'kresek' (wilting and death of entire tillers)", "Severe infection during heading reduces grain fill and causes chaffy grains", "Lesions may have a characteristic wave-like or undulating edge"],
+      "management_options": {
+        "cultural": "Plant resistant varieties (check for Xa genes). Use certified, disease-free seed. Avoid excessive nitrogen fertilization; use balanced nutrient management. Adjust water management to avoid continuous flooding during susceptible stages. Remove and destroy infected plant debris. Practice wide spacing to improve air circulation.",
+        "biological": "Not widely used, though some antagonistic bacteria show promise in research.",
+        "chemical": "Apply copper-based bactericides or antibiotics (e.g., Streptomycin) at early symptom appearance. Chemical control is limited and often not economically justified. Focus on prevention through resistant varieties and cultural practices."
+      }
+    },
+    {
+      "crop": "Maize",
+      "pest_disease_id": "M4",
+      "common_name": "Northern Leaf Blight (NLB)",
+      "scientific_name": "Exserohilum turcicum",
+      "type": "Fungal Disease",
+      "farmer_simple_description": "Big, cigar-shaped grey-green spots on the leaves, usually longer than your thumb, giving the plant a scorched appearance.",
+      "stage_affected": "Mid to Late Vegetative (V10-Tasseling)",
+      "visual_keys": {"color": "Grey-green/tan", "pattern": "Large, cigar-shaped/elliptical lesions", "location": "Anywhere on the leaf"},
+      "environmental_context": "Favored by slightly cooler temperatures (18-27°C) and prolonged periods of high moisture (heavy dew or persistent, light rainfall). The moisture allows the fungus to germinate and infect the leaf tissue.",
+      "key_symptoms": ["Large, elongated, elliptical lesions (cigar-shaped)", "Lesions are watery, grayish-green when fresh, drying to tan/straw color", "Spots can merge to form large areas of dead tissue, scorching the leaf", "Symptoms tend to appear on upper leaves first in severe cases, unlike GLS", "Lack of distinct angular restriction by leaf veins (lesions are smooth-sided)"],
+      "management_options": {
+        "cultural": "Plant hybrids with known NLB resistance (Pst gene). Implement crop rotation with crops other than sorghum or sudangrass. Timely and complete destruction of infected maize residue is essential to remove the primary inoculum source.",
+        "biological": "Not applicable.",
+        "chemical": "Fungicides containing active ingredients similar to those used for GLS are effective. Begin treatment before the disease becomes widespread, ideally when lesions first appear in the lower to middle canopy."
+      }
+    },
+    {
+      "crop": "Maize",
+      "pest_disease_id": "M5",
+      "common_name": "Maize Streak Virus (MSV)",
+      "scientific_name": "MSV (transmitted by leafhoppers)",
+      "type": "Viral Disease",
+      "farmer_simple_description": "Yellow lines running along the leaf veins like a zebra, plants are very short and stunted, leading to no or small cobs.",
+      "stage_affected": "Early Vegetative (V1-V6)",
+      "visual_keys": {"color": "Yellow stripes/mottling", "pattern": "Parallel lines along veins", "location": "New growth/entire plant"},
+      "environmental_context": "High temperatures and early season infection (when the leafhopper vector, *Cicadulina mbila*, is abundant and active). Infection at V1-V3 stages is most devastating, causing total yield loss.",
+      "key_symptoms": ["Broken yellow streaks running parallel to leaf veins", "Streaks start near the base of the newest leaves and become denser towards the tip", "Severe stunting of the entire plant, often resulting in a bushy, unproductive appearance", "Older leaves may turn entirely yellow or have severe chlorosis", "Infected plants may fail to produce an ear or produce only a tiny, malformed cob"],
+      "management_options": {
+        "cultural": "Plant MSV resistant or tolerant varieties immediately. Remove and bury severely infected plants (roguing) to reduce the local inoculum source. Use reflective mulch (if feasible) to repel the leafhopper vector in high-value plots.",
+        "biological": "Not applicable (virus), focus is on vector control.",
+        "chemical": "Seed treatment with systemic neonicotinoid insecticides provides critical protection against the leafhopper vector during the first 3-4 weeks of growth, preventing early and devastating infection."
+      }
+    },
+    {
+      "crop": "Rice",
+      "pest_disease_id": "R1",
+      "common_name": "Rice Blast",
+      "scientific_name": "Magnaporthe oryzae",
+      "type": "Fungal Disease",
+      "farmer_simple_description": "Diamond-shaped white-grey spots with a brown border on the leaves and sometimes a black spot that breaks the panicle neck (Neck Blast).",
+      "stage_affected": "All stages, especially tillering and heading",
+      "visual_keys": {"color": "White/grey center, brown border", "pattern": "Diamond shape on leaves", "location": "Leaves, nodes, panicle neck"},
+      "environmental_context": "Highly favored by cool, wet, and cloudy weather conditions. Excessive nitrogen fertilization creates lush, succulent growth that is more susceptible to infection.",
+      "key_symptoms": ["Diamond-shaped lesions on leaves, often concentrated near the mid-rib", "Lesions have white or grey centers and dark reddish-brown margins", "Rotting and eventual breaking of the panicle neck (Neck Blast), leading to empty, blasted grains", "Nodes turn black and the stem breaks (Node Blast), cutting off nutrient flow"],
+      "management_options": {
+        "cultural": "Use resistant or tolerant rice varieties suitable for the local environment. Avoid excessive and late application of nitrogen fertilizer. Drain and dry the field for a few days during tillering to reduce leaf wetness and disease spread.",
+        "biological": "Seed treatment with antagonistic microbes (*Bacillus spp.*) can offer early protection but is not common.",
+        "chemical": "Fungicide application is critical at two stages: max tillering (for leaf blast) and heading (for neck blast protection). Use specific products like Tricyclazole or Azoxystrobin following label rates and timing."
+      }
+    },
+    {
+      "crop": "Rice",
+      "pest_disease_id": "R2",
+      "common_name": "African Rice Stem Borer",
+      "scientific_name": "Maliarpha separatella",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Plant dries from inside ('deadheart') or, later, the panicle comes out completely white and empty ('whitehead').",
+      "stage_affected": "Vegetative and Reproductive",
+      "visual_keys": {"color": "White panicles or dead shoots", "pattern": "Dead central tissue", "location": "Inside the tiller stem"},
+      "environmental_context": "The pest is highly damaging in continuously cropped rice fields where residue and stubble provide shelter and breeding grounds between seasons.",
+      "key_symptoms": ["Deadheart (central whorl dies and pulls out easily) during vegetative stage", "Whitehead (panicles are completely white and contain no grain) during reproductive stage", "Small entry/exit holes at the base of the tiller or node", "Presence of a creamy-white larva inside the stem, often feeding on the pith"],
+      "management_options": {
+        "cultural": "Practice clean cultivation by removing weeds and volunteer plants. Cut stubble low (below the lowest node) during harvest. Flood the field immediately after harvest for a few weeks to kill overwintering larvae inside the stubble.",
+        "biological": "Conserve indigenous natural enemies, particularly spiders and predatory wasps. Some egg parasitoids are available for augmentation.",
+        "chemical": "Granular insecticides (e.g., Chlorpyrifos) applied to the water in irrigated rice when symptoms appear, ensuring the chemical reaches the base of the tillers where larvae are active."
+      }
+    },
+    {
+      "crop": "Rice",
+      "pest_disease_id": "R3",
+      "common_name": "Rice Yellow Mottle Virus (RYMV)",
+      "scientific_name": "RYMV",
+      "type": "Viral Disease",
+      "farmer_simple_description": "Leaves show a striking yellow-orange mottling or striping, and the plant is severely stunted, resulting in poor grain filling.",
+      "stage_affected": "Early Vegetative",
+      "visual_keys": {"color": "Yellow/orange mottling", "pattern": "Striping, crinkled leaves", "location": "New growth"},
+      "environmental_context": "Transmitted non-persistently by various insect vectors, including beetles and grasshoppers. Spread is rapid in closely planted areas and standing water systems.",
+      "key_symptoms": ["Yellow to orange discoloration of leaves (mottling) starting from the base and moving up", "Pronounced stunting of the entire plant, reducing height by over 50%", "Leaves may be crinkled or twisted, becoming brittle to the touch", "Poor panicle exertion and few, discolored grains, leading to high yield loss"],
+      "management_options": {
+        "cultural": "Plant resistant or tolerant varieties (check local seed supplier). Rogue and bury infected plants immediately upon sighting to stop spread. Manage the surrounding habitat by controlling weeds and grasses that might harbor the insect vectors.",
+        "biological": "Not applicable (virus), focus is on vector control.",
+        "chemical": "Focus on vector control using systemic seed treatments or foliar sprays in the nursery/early field stages to eliminate the initial infestation of vector insects."
+      }
+    },
+    {
+      "crop": "Rice",
+      "pest_disease_id": "R4",
+      "common_name": "Rice Water Weevil",
+      "scientific_name": "Lissorhoptrus oryzophilus",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Adult beetles eat small, elongated white scars on the leaves. The larvae eat the roots, making the plant look sick and stunted.",
+      "stage_affected": "Early Vegetative (Transplanting to Tillering)",
+      "visual_keys": {"color": "Small black/brown beetle", "pattern": "White scars on leaves, poor root growth", "location": "Leaves (adult), roots (larvae)"},
+      "environmental_context": "Worse in continuously flooded paddy fields, as the larvae are aquatic and thrive in standing water systems throughout the initial growth stages.",
+      "key_symptoms": ["Small, linear white scars (adult feeding) on the upper surface of leaves", "Stunted growth, yellowing, and poor tillering due to root damage", "Root pruning/reduction (larval feeding) evident when the plant is pulled out", "In severe cases, plants may float easily when pulled due to lack of a robust root system"],
+      "management_options": {
+        "cultural": "Drain the field periodically, holding back permanent flooding during the first few weeks after transplanting. Delaying the establishment of standing water helps interrupt the larval life cycle.",
+        "biological": "Not typically used, though some parasitic nematodes may offer control.",
+        "chemical": "Soil-applied insecticides (granules) at the time of transplanting or shortly thereafter, specifically targeting the larvae in the soil/water layer."
+      }
+    },
+    {
+      "crop": "Rice",
+      "pest_disease_id": "R5",
+      "common_name": "Brown Plant Hopper (BPH)",
+      "scientific_name": "Nilaparvata lugens",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Tiny, jumping brown insects clustering near the base of the plant. Causes large patches of plants to turn yellow and die ('hopperburn').",
+      "stage_affected": "Mid-Tillering to Maturity",
+      "visual_keys": {"color": "Brown/black hopper", "pattern": "Hopperburn (circular dead patches)", "location": "Base of the tillers/stems"},
+      "environmental_context": "High humidity, dense planting, and excessive nitrogen application create a favorable microclimate for BPH populations to explode, leading to rapid disease spread.",
+      "key_symptoms": ["Clusters of small brown hoppers near the water line and stem base", "Yellowing, browning, and drying of entire plant patches (hopperburn) due to sap feeding", "Rapid death of large circular areas in the field where populations are highest", "Presence of sticky honeydew and resulting black sooty mold at the plant base"],
+      "management_options": {
+        "cultural": "Avoid excessive nitrogen fertilizer; use split applications. Use moderate planting density to improve air circulation. Plant resistant varieties. Periodically drain the field to expose the hoppers and reduce humidity.",
+        "biological": "Conserve spiders, mirid bugs, and aquatic predators which feed on BPH. Fungal biopesticides can be effective.",
+        "chemical": "Systemic insecticides (e.g., Fipronil) must be applied specifically to the base of the plant to reach the hoppers, avoiding broad-spectrum sprays that kill natural enemies."
+      }
+    },
+    {
+      "crop": "Common Beans",
+      "pest_disease_id": "B1",
+      "common_name": "Bean Stem Maggot (Bean Fly)",
+      "scientific_name": "Ophiomyia phaseoli",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Young bean plants (first 3 weeks) turn yellow, wilt, and often die because tiny white maggots tunnel inside the stem near the soil line.",
+      "stage_affected": "First 3 weeks (Seedling)",
+      "visual_keys": {"color": "Yellow/white tunnels", "pattern": "Swollen or cracked stem base", "location": "Stem near soil line"},
+      "environmental_context": "Worse in dry weather and when planting is delayed, as the flies lay eggs in the first true leaves, and the larvae migrate down the petiole to the stem base, where they girdle the plant.",
+      "key_symptoms": ["Yellowing and wilting of the first true leaves (unifoliate leaves)", "Swollen and cracked stem base near the ground line", "White tunnels or maggots found inside the split stem when inspected with a knife", "Plants are easily pulled out due to severe root damage (girdling)"],
+      "management_options": {
+        "cultural": "Mound soil (earthing-up) around the plant stem 10-14 days after emergence to encourage secondary root formation above the damaged area. Plant seeds deeper (5-7 cm) and use early planting to avoid peak fly populations.",
+        "biological": "Not typically effective due to the internal location of the larvae.",
+        "chemical": "Seed treatment with systemic insecticide (e.g., Thiamethoxam, Imidacloprid) is highly effective, protecting the seedling during the critical first three weeks of life."
+      }
+    },
+    {
+      "crop": "Common Beans",
+      "pest_disease_id": "B2",
+      "common_name": "Angular Leaf Spot (ALS)",
+      "scientific_name": "Phaeoisariopsis griseola",
+      "type": "Fungal Disease",
+      "farmer_simple_description": "Square or angular brown spots on the leaves; the spots have straight edges and are contained by the leaf veins.",
+      "stage_affected": "Vegetative to Pod-fill",
+      "visual_keys": {"color": "Brown/grey center, purple border", "pattern": "Angular, restricted by veins", "location": "Leaves, occasionally pods"},
+      "environmental_context": "Cool temperatures (16-25°C) combined with high humidity and long periods of leaf wetness (over 12 hours) promote spore germination and infection.",
+      "key_symptoms": ["Lesions that are distinctly angular, defined by leaf veins, giving a blocky appearance", "Dark brown to reddish-purple borders around grey/tan centers", "Tiny black fungal tufts (fruiting bodies) visible on the underside of lesions", "Severe infection causes leaves to drop prematurely, leading to sunscald on unprotected pods", "Can also cause reddish lesions on the pods, reducing market value"],
+      "management_options": {
+        "cultural": "Plant ALS-resistant varieties. Use certified, clean seed, as the disease is often seed-borne. Implement long crop rotations (2-3 years) with non-host crops. Avoid overhead irrigation or irrigate early in the day to allow leaves to dry.",
+        "biological": "Not typically used.",
+        "chemical": "Foliar fungicides (Copper-based or Triazole groups) should be applied preventatively during early flowering and pod-set, especially when humid conditions prevail."
+      }
+    },
+    {
+      "crop": "Common Beans",
+      "pest_disease_id": "B3",
+      "common_name": "Common Bean Mosaic Virus (BCMV)",
+      "scientific_name": "BCMV (transmitted by aphids/seed)",
+      "type": "Viral Disease",
+      "farmer_simple_description": "Leaves show a light and dark green mottled (mosaic) pattern and are severely wrinkled, curled, and distorted (shoe-string appearance).",
+      "stage_affected": "All stages, worst if infected early",
+      "visual_keys": {"color": "Light and dark green mosaic", "pattern": "Wrinkled, curled, distorted leaves", "location": "New growth"},
+      "environmental_context": "Worse when aphid populations are high, as they are the primary vector for transmission from infected weeds or nearby crops. Using uncertified seed is the most common way the disease enters a field.",
+      "key_symptoms": ["Mottled pattern of light and dark green on leaves (mosaic)", "Leaves are wrinkled, curled downward, or severely distorted (often described as 'cupping')", "Stunted growth, especially if infected before the first true leaf stage", "Reduced pod set and small, often fewer, seeds", "Symptoms are more severe in cool weather"],
+      "management_options": {
+        "cultural": "Always use certified, virus-free seed (the most effective control). Control aphid vectors (the spreaders) by removing alternative weed hosts. Immediately rogue (remove and bury) any infected plants to prevent aphid transmission to healthy plants.",
+        "biological": "Not applicable (virus), focus is on vector control.",
+        "chemical": "Focus is on controlling the aphid vector with targeted insecticides, particularly at the beginning of the growing season when the aphids are most likely to transmit the virus."
+      }
+    },
+    {
+      "crop": "Common Beans",
+      "pest_disease_id": "B4",
+      "common_name": "Aphids (Black Bean Aphid)",
+      "scientific_name": "Aphis fabae",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Clusters of tiny black, soft-bodied insects crowding on young growing tips and under leaves. Leaves curl, distort, and become sticky (honeydew).",
+      "stage_affected": "Vegetative to Pod-fill",
+      "visual_keys": {"color": "Black, shiny insects", "pattern": "Dense clusters", "location": "Growing tips, undersides of young leaves"},
+      "environmental_context": "Worse in dry, hot conditions, particularly during the dry season. Drought stress on the host plants can also increase their susceptibility to aphid damage and virus transmission.",
+      "key_symptoms": ["Dense clusters of small, black, pear-shaped insects on growing tips and new foliage", "Presence of sticky, clear liquid (honeydew) excreted by the aphids", "Leaves and pods are curled, stunted, and malformed due to sap removal", "Black sooty mold growing on the sticky honeydew, further reducing photosynthesis"],
+      "management_options": {
+        "cultural": "Monitor frequently, especially on new growth. Remove and crush small infestations by hand or cut off the infested shoot. Avoid excess nitrogen fertilizer, which produces lush, attractive growth.",
+        "biological": "Introduce or conserve natural enemies like lady beetles, lacewings, and parasitoid wasps. Spray with neem oil or a mild soapy water solution to kill by contact and disrupt feeding.",
+        "chemical": "Targeted application of insecticides (e.g., Lambda-cyhalothrin or systemic products) should only be used on highly infested patches to preserve natural predators."
+      }
+    },
+    {
+      "crop": "Common Beans",
+      "pest_disease_id": "B5",
+      "common_name": "Bean Pod Borer",
+      "scientific_name": "Maruca vitrata",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Caterpillars boring holes into the flowers and young pods. You will see frass (poop) near the entry hole on the pod.",
+      "stage_affected": "Flowering and Pod-fill",
+      "visual_keys": {"color": "Creamy/green caterpillar", "pattern": "Holes in pods, webbing on flowers", "location": "Inside flowers and pods"},
+      "environmental_context": "High humidity, overcast conditions, and frequent rainfall favor the pest, leading to increased egg laying and reduced effectiveness of chemical sprays.",
+      "key_symptoms": ["Webbing of flowers and flower clusters, making them stick together", "Bore holes in young pods with frass visible outside the entry point", "Flowers drop prematurely, resulting in reduced pod formation", "Presence of pinkish-brown or creamy larvae inside the pod, eating the developing beans"],
+      "management_options": {
+        "cultural": "Plant early maturing varieties to escape peak pest periods. Practice early scouting to detect egg masses and young larvae on flowers. Intercrop with non-host crops like maize to disrupt the pest's search pattern.",
+        "biological": "Encourage natural enemies. Use neem-based products as a repellent and feeding inhibitor, applying specifically to the flowers.",
+        "chemical": "Insecticide application (e.g., Chlorpyrifos) during early flowering to target larvae before they enter the pod, as they are protected once inside. Repeat application may be needed based on scouting results."
+      }
+    },
+    {
+      "crop": "Groundnuts",
+      "pest_disease_id": "G1",
+      "common_name": "Groundnut Rosette Virus (GRV)",
+      "scientific_name": "GRV (aphid-transmitted)",
+      "type": "Viral Disease",
+      "farmer_simple_description": "Plants remain very short and bushy (rosette look), leaves are small, dark green, and crinkled, resulting in almost no pods.",
+      "stage_affected": "Early Vegetative",
+      "visual_keys": {"color": "Dark green, yellow mottling", "pattern": "Severe stunting, bushy", "location": "New growth"},
+      "environmental_context": "GRV is devastating when the aphid vector (*Aphis craccivora*) population is high and infection occurs early in the season, preventing normal growth before flowering.",
+      "key_symptoms": ["Severe stunting leading to a rosette or bushy appearance due to shortened internodes", "Leaves are noticeably small, dark green, and rugose (crinkled or leathery)", "Very few or no pegs and pods are formed, leading to near-total yield loss", "Often appears in circular patches spreading outwards from an initial infestation point", "New leaves may show distinct yellow mottling or chlorosis"],
+      "management_options": {
+        "cultural": "Plant highly resistant or tolerant varieties immediately. Plant early at a high plant population (density) to achieve canopy closure faster. Remove and destroy all infected plants and nearby leguminous weeds that harbor the virus/aphid.",
+        "biological": "Not applicable (virus), focus is on vector control.",
+        "chemical": "Systemic insecticide seed dressing is critical to control the aphid vector early in the season, protecting the plant during the vulnerable seedling stage when virus transmission risk is highest."
+      }
+    },
+    {
+      "crop": "Groundnuts",
+      "pest_disease_id": "G2",
+      "common_name": "Early Leaf Spot (ELS)",
+      "scientific_name": "Cercospora arachidicola",
+      "type": "Fungal Disease",
+      "farmer_simple_description": "Round, brown spots on the upper side of the leaves, often surrounded by a clear yellow ring (halo). Causes leaves to drop early.",
+      "stage_affected": "Mid to Late Vegetative",
+      "visual_keys": {"color": "Brown spots, yellow halo", "pattern": "Round lesions, distinct ring", "location": "Upper leaf surface"},
+      "environmental_context": "Favored by cool to moderate temperatures (20-25°C) and high humidity, particularly when leaves remain wet for extended periods, allowing fungal spores to germinate.",
+      "key_symptoms": ["Round, reddish-brown spots on the upper leaf surface", "Lesions surrounded by a distinct clear yellow ring (halo)", "Blackish growth (fungal spores) visible on the underside of the spots, but less dense than LLS", "Causes premature leaf drop (defoliation), significantly reducing pod filling and yield"],
+      "management_options": {
+        "cultural": "Plant resistant or tolerant varieties. Rotate groundnuts with non-host crops (e.g., maize) for at least three years. Bury infected residue deeply by plowing after harvest to reduce the primary inoculum source.",
+        "biological": "Not typically used.",
+        "chemical": "Foliar fungicide application (e.g., Chlorothalonil) must start preventatively around 30-40 days after planting, following a rigid 10-14 day spray schedule throughout the season."
+      }
+    },
+    {
+      "crop": "Groundnuts",
+      "pest_disease_id": "G3",
+      "common_name": "Late Leaf Spot (LLS)",
+      "scientific_name": "Phaeoisariopsis personata",
+      "type": "Fungal Disease",
+      "farmer_simple_description": "Dark brown to black spots, mainly visible on the **underside** of the leaves, often with a velvety or fuzzy appearance on the bottom.",
+      "stage_affected": "Pod-fill and Maturity",
+      "visual_keys": {"color": "Dark brown/black spots", "pattern": "Diffuse spots, velvety texture", "location": "Lower leaf surface"},
+      "environmental_context": "Favored by higher temperatures (25-30°C) than ELS, but still requires high humidity. It often appears and causes damage later in the season, following ELS infection.",
+      "key_symptoms": ["Dark brown or black spots, typically smaller and more numerous than ELS", "Halo around the spots is less distinct or absent compared to ELS", "A dense, black, velvety mat of fungal structures visible on the **lower** leaf surface is the key diagnostic feature", "Causes severe and rapid defoliation during the critical pod-filling stage, impacting quality"],
+      "management_options": {
+        "cultural": "Similar to ELS (rotation, resistance). Maintain adequate plant spacing and ridging to allow for good air flow and quick leaf drying, reducing the chance of infection.",
+        "biological": "Not typically used.",
+        "chemical": "Integrated with the ELS fungicide program; requires continued spray protection late into the season, sometimes with different product mixes to ensure control against both species."
+      }
+    },
+    {
+      "crop": "Groundnuts",
+      "pest_disease_id": "G4",
+      "common_name": "Aphids (Groundnut Aphid)",
+      "scientific_name": "Aphis craccivora",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Small, shiny black insects clustering on new shoots and under leaves. They are the main spreader of Rosette Virus.",
+      "stage_affected": "Early Vegetative",
+      "visual_keys": {"color": "Shiny black insects", "pattern": "Dense clustering", "location": "Growing tips, undersides of leaves"},
+      "environmental_context": "Dry conditions, particularly at the start of the season, encourage aphids to migrate rapidly from surrounding dry-season leguminous crops, increasing the risk of virus introduction.",
+      "key_symptoms": ["Dense clusters of small, shiny black aphids on growing points and young foliage", "Curled or distorted young leaves due to sap feeding", "Sticky honeydew visible on leaves and stems", "Confirmation of a high risk for Groundnut Rosette Virus (GRV) spread, often the most damaging aspect"],
+      "management_options": {
+        "cultural": "Plant early to avoid peak aphid migration times. Use a barrier crop (e.g., millet, sorghum) planted around the field perimeter 3-4 weeks before the groundnuts to act as a buffer.",
+        "biological": "Use neem oil extract as a repellent and to disrupt feeding. Conserve lady beetles, lacewings, and hoverfly larvae.",
+        "chemical": "Systemic insecticides, primarily applied as a seed dressing, are the most effective method to control the vector and prevent early Rosette virus infection."
+      }
+    },
+    {
+      "crop": "Groundnuts",
+      "pest_disease_id": "G5",
+      "common_name": "Termites",
+      "scientific_name": "Macrotermes / Odontotermes spp.",
+      "type": "Insect Pest",
+      "farmer_simple_description": "Plants wilt suddenly even when the soil is wet. Look for white insects eating the roots and for tunnels (galleries) on the stem base.",
+      "stage_affected": "All stages, especially podding",
+      "visual_keys": {"color": "White workers, brown tunnels", "pattern": "Sudden wilting, hollow roots and pods", "location": "Underground, stem base, pods"},
+      "environmental_context": "Termite damage is highest in dry soil conditions where their tunnels are stable, and in fields with high organic matter residue (stubble, wood) that they prefer to feed on.",
+      "key_symptoms": ["Sudden wilting and death of plants in patches, even if soil moisture is adequate", "Plants easily pulled out (roots eaten or hollowed) with evidence of soil tunnels", "Pods show distinct feeding punctures or are completely hollowed out, causing yield loss and poor quality", "Presence of soil tunnels (mud galleries) on the stem near the ground line or exposed pods"],
+      "management_options": {
+        "cultural": "Deep plowing/tillage to expose colonies and disrupt tunnels. Maintain field sanitation by removing crop residue/stubble completely. Use appropriate ridging to bury the pods deeply, protecting them from surface-feeding termites.",
+        "biological": "Use fungus-based biopesticides (*Metarhizium anisopliae*) which are known to control subterranean pests like termites.",
+        "chemical": "Soil-applied termiticides (e.g., Chlorpyrifos) targeted at the plant base or directly into active mounds is necessary for severe infestations."
+      }
+    }
+  ]
+}

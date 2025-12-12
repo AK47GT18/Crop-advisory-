@@ -1,0 +1,1407 @@
+[
+  {
+    "crop": "Maize",
+    "variety": "Kanyani",
+    "type": "OPV",
+    "maturity_days": 120,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["March", "April"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Loam", "Sandy Loam", "Clay Loam"],
+    "altitude_range_masl": [500, 1800],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn (NPK compound)",
+      "topdress": "Urea (46% N)",
+      "application_rate_kg_per_ha": {
+        "basal": 200,
+        "topdress_first": 100,
+        "topdress_second": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3-4 weeks after planting",
+        "topdress_second": "6-7 weeks after planting"
+      },
+      "notes": "Soil test results should guide fertilizer amounts; split urea applications improve N uptake efficiency"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 2.5,
+      "with_good_management": 4.5,
+      "with_suboptimal_conditions": 1.2
+    },
+    "spacing": {
+      "between_rows_cm": 75,
+      "within_row_cm": 25,
+      "plants_per_ha": 53333
+    },
+    "water_requirement_mm": 550,
+    "pest_diseases": ["Fall Armyworm", "Maize Streak Virus", "Stalk Borers", "Leaf Blight"],
+    "management_notes": [
+      "Prepare ridges before onset of rains for optimal water management",
+      "First weeding at 2-3 weeks, second at 5-6 weeks after planting",
+      "Thinning to 1-2 plants per station at 2 weeks",
+      "Critical water period during tasseling and grain filling",
+      "Scout for fall armyworm weekly during vegetative stage"
+    ],
+    "storage_requirements": "Dry to 12.5% moisture content before storage to prevent aflatoxin"
+  },
+  {
+    "crop": "Maize",
+    "variety": "SC 403",
+    "type": "OPV",
+    "maturity_days": 125,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["March", "April"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Loam", "Sandy Loam", "Clay Loam"],
+    "altitude_range_masl": [500, 1800],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 200,
+        "topdress_first": 100,
+        "topdress_second": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3-4 weeks after planting",
+        "topdress_second": "6-7 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 2.3,
+      "with_good_management": 4.2,
+      "with_suboptimal_conditions": 1.0
+    },
+    "spacing": {
+      "between_rows_cm": 75,
+      "within_row_cm": 25,
+      "plants_per_ha": 53333
+    },
+    "water_requirement_mm": 550,
+    "pest_diseases": ["Fall Armyworm", "Maize Streak Virus", "Stalk Borers"],
+    "management_notes": [
+      "Good adaptability to various soil types",
+      "Ensure proper weed control in first 6 weeks",
+      "Responds well to organic manure application"
+    ],
+    "storage_requirements": "Dry to 12.5% moisture content"
+  },
+  {
+    "crop": "Maize",
+    "variety": "MH 18",
+    "type": "OPV",
+    "maturity_days": 115,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["March", "April"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "good",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [500, 1500],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 200,
+        "topdress_first": 100,
+        "topdress_second": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3-4 weeks after planting",
+        "topdress_second": "6-7 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 2.8,
+      "with_good_management": 4.8,
+      "with_suboptimal_conditions": 1.5
+    },
+    "spacing": {
+      "between_rows_cm": 75,
+      "within_row_cm": 25,
+      "plants_per_ha": 53333
+    },
+    "water_requirement_mm": 500,
+    "pest_diseases": ["Fall Armyworm", "Stalk Borers", "Leaf Blight"],
+    "management_notes": [
+      "Earlier maturing variety suitable for areas with shorter rainy seasons",
+      "Better drought tolerance than other OPVs",
+      "Ideal for mid-altitude zones"
+    ],
+    "storage_requirements": "Dry to 12.5% moisture content"
+  },
+  {
+    "crop": "Maize",
+    "variety": "MH 19",
+    "type": "OPV",
+    "maturity_days": 120,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["March", "April"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Loam", "Clay Loam", "Sandy Loam"],
+    "altitude_range_masl": [500, 1800],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 200,
+        "topdress_first": 100,
+        "topdress_second": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3-4 weeks after planting",
+        "topdress_second": "6-7 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 3.0,
+      "with_good_management": 5.0,
+      "with_suboptimal_conditions": 1.5
+    },
+    "spacing": {
+      "between_rows_cm": 75,
+      "within_row_cm": 25,
+      "plants_per_ha": 53333
+    },
+    "water_requirement_mm": 550,
+    "pest_diseases": ["Fall Armyworm", "Maize Streak Virus", "Stalk Borers"],
+    "management_notes": [
+      "High yielding OPV with good stability",
+      "Responds well to improved management practices",
+      "Suitable for both smallholder and commercial farming"
+    ],
+    "storage_requirements": "Dry to 12.5% moisture content"
+  },
+  {
+    "crop": "Maize",
+    "variety": "MH 20",
+    "type": "OPV",
+    "maturity_days": 125,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["March", "April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Loam", "Clay Loam"],
+    "altitude_range_masl": [600, 1800],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 200,
+        "topdress_first": 100,
+        "topdress_second": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3-4 weeks after planting",
+        "topdress_second": "6-7 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 3.2,
+      "with_good_management": 5.2,
+      "with_suboptimal_conditions": 1.6
+    },
+    "spacing": {
+      "between_rows_cm": 75,
+      "within_row_cm": 25,
+      "plants_per_ha": 53333
+    },
+    "water_requirement_mm": 575,
+    "pest_diseases": ["Fall Armyworm", "Maize Streak Virus", "Stalk Borers", "Ear Rots"],
+    "management_notes": [
+      "Latest released OPV with improved yield potential",
+      "Requires adequate moisture throughout growing season",
+      "Good disease resistance package"
+    ],
+    "storage_requirements": "Dry to 12.5% moisture content"
+  },
+  {
+    "crop": "Maize",
+    "variety": "DK 8031",
+    "type": "Hybrid",
+    "maturity_days": 135,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Loam", "Clay Loam", "Sandy Loam"],
+    "altitude_range_masl": [500, 1800],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 250,
+        "topdress_first": 125,
+        "topdress_second": 75
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3-4 weeks after planting",
+        "topdress_second": "6-7 weeks after planting"
+      },
+      "notes": "Hybrids require higher fertilizer rates for optimal performance"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 4.5,
+      "with_good_management": 6.5,
+      "with_suboptimal_conditions": 2.5
+    },
+    "spacing": {
+      "between_rows_cm": 75,
+      "within_row_cm": 25,
+      "plants_per_ha": 53333
+    },
+    "water_requirement_mm": 600,
+    "pest_diseases": ["Fall Armyworm", "Maize Streak Virus", "Stalk Borers"],
+    "management_notes": [
+      "High yielding hybrid requiring good management",
+      "Plant early in optimal window for best results",
+      "Cannot save seed - must purchase fresh each season",
+      "Higher input costs but better returns with proper management"
+    ],
+    "storage_requirements": "Dry to 12.5% moisture content"
+  },
+  {
+    "crop": "Maize",
+    "variety": "DK 8053",
+    "type": "Hybrid",
+    "maturity_days": 140,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "good",
+    "soil_preference": ["Loam", "Clay Loam"],
+    "altitude_range_masl": [600, 1800],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 250,
+        "topdress_first": 125,
+        "topdress_second": 75
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3-4 weeks after planting",
+        "topdress_second": "6-7 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 5.0,
+      "with_good_management": 7.0,
+      "with_suboptimal_conditions": 2.8
+    },
+    "spacing": {
+      "between_rows_cm": 75,
+      "within_row_cm": 25,
+      "plants_per_ha": 53333
+    },
+    "water_requirement_mm": 625,
+    "pest_diseases": ["Fall Armyworm", "Stalk Borers"],
+    "management_notes": [
+      "Premium hybrid with excellent yield potential",
+      "Better drought tolerance than DK 8031",
+      "Requires full season rainfall or supplemental irrigation",
+      "Investment in inputs crucial for profitability"
+    ],
+    "storage_requirements": "Dry to 12.5% moisture content"
+  },
+  {
+    "crop": "Maize",
+    "variety": "SC 627",
+    "type": "Hybrid",
+    "maturity_days": 130,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October"],
+    "main_harvest_window": ["March", "April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "very good",
+    "soil_preference": ["Loam", "Sandy Loam", "Clay Loam"],
+    "altitude_range_masl": [400, 1800],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 250,
+        "topdress_first": 125,
+        "topdress_second": 75
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3-4 weeks after planting",
+        "topdress_second": "6-7 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 4.8,
+      "with_good_management": 6.8,
+      "with_suboptimal_conditions": 3.0
+    },
+    "spacing": {
+      "between_rows_cm": 75,
+      "within_row_cm": 25,
+      "plants_per_ha": 53333
+    },
+    "water_requirement_mm": 575,
+    "pest_diseases": ["Fall Armyworm", "Stalk Borers"],
+    "management_notes": [
+      "Excellent drought tolerance - suitable for drier areas",
+      "Wide adaptability across agro-ecological zones",
+      "Maintains yield better under stress conditions",
+      "Popular choice for areas with uncertain rainfall"
+    ],
+    "storage_requirements": "Dry to 12.5% moisture content"
+  },
+  {
+    "crop": "Maize",
+    "variety": "Chitedze",
+    "type": "Local",
+    "maturity_days": 140,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "good",
+    "soil_preference": ["Any", "Low fertility tolerant"],
+    "altitude_range_masl": [400, 2000],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn or organic manure",
+      "topdress": "Urea (optional)",
+      "application_rate_kg_per_ha": {
+        "basal": 100,
+        "topdress_first": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "4 weeks after planting"
+      },
+      "notes": "Can perform reasonably without fertilizer but responds to inputs"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.8,
+      "with_good_management": 3.5,
+      "with_suboptimal_conditions": 1.0
+    },
+    "spacing": {
+      "between_rows_cm": 90,
+      "within_row_cm": 30,
+      "plants_per_ha": 37037
+    },
+    "water_requirement_mm": 500,
+    "pest_diseases": ["Fall Armyworm", "Stalk Borers", "Maize Streak Virus"],
+    "management_notes": [
+      "Traditional variety with seed saving capability",
+      "Better adaptation to low-input systems",
+      "Taller plants - more susceptible to lodging",
+      "Good for mixed cropping systems",
+      "Lower cost option for resource-constrained farmers"
+    ],
+    "storage_requirements": "Traditional storage methods acceptable"
+  },
+  {
+    "crop": "Maize",
+    "variety": "Mwanza",
+    "type": "Local",
+    "maturity_days": 135,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Any", "Low fertility tolerant"],
+    "altitude_range_masl": [400, 1800],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn or organic manure",
+      "topdress": "Urea (optional)",
+      "application_rate_kg_per_ha": {
+        "basal": 100,
+        "topdress_first": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "4 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.6,
+      "with_good_management": 3.2,
+      "with_suboptimal_conditions": 0.9
+    },
+    "spacing": {
+      "between_rows_cm": 90,
+      "within_row_cm": 30,
+      "plants_per_ha": 37037
+    },
+    "water_requirement_mm": 500,
+    "pest_diseases": ["Fall Armyworm", "Stalk Borers"],
+    "management_notes": [
+      "Locally adapted variety",
+      "Seed can be saved for replanting",
+      "Good grain quality for local consumption",
+      "Suitable for intercropping with legumes"
+    ],
+    "storage_requirements": "Traditional storage methods acceptable"
+  },
+  {
+    "crop": "Maize",
+    "variety": "Kalima",
+    "type": "Local",
+    "maturity_days": 130,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["March", "April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "good",
+    "soil_preference": ["Any"],
+    "altitude_range_masl": [400, 1900],
+    "recommended_fertilizers": {
+      "basal": "23:10:5 +6S +1Zn or organic manure",
+      "topdress": "Urea (optional)",
+      "application_rate_kg_per_ha": {
+        "basal": 100,
+        "topdress_first": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "4 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.5,
+      "with_good_management": 3.0,
+      "with_suboptimal_conditions": 0.8
+    },
+    "spacing": {
+      "between_rows_cm": 90,
+      "within_row_cm": 30,
+      "plants_per_ha": 37037
+    },
+    "water_requirement_mm": 475,
+    "pest_diseases": ["Fall Armyworm", "Stalk Borers"],
+    "management_notes": [
+      "Hardy local variety",
+      "Free seed saving",
+      "Lower yield but stable performance",
+      "Preferred by some for taste and texture"
+    ],
+    "storage_requirements": "Traditional storage methods acceptable"
+  },
+  {
+    "crop": "Rice",
+    "variety": "NERICA 4",
+    "type": "Improved",
+    "maturity_days": 90,
+    "planting_window": ["December", "January"],
+    "acceptable_planting": ["November", "February"],
+    "main_harvest_window": ["March", "April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "good",
+    "soil_preference": ["Clay", "Clay Loam", "Loam"],
+    "altitude_range_masl": [300, 1200],
+    "recommended_fertilizers": {
+      "basal": "NPK (15:15:15) or equivalent",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 150,
+        "topdress_first": 100,
+        "topdress_second": 50
+      },
+      "timing": {
+        "basal": "At planting or transplanting",
+        "topdress_first": "3 weeks after planting",
+        "topdress_second": "6 weeks after planting"
+      },
+      "notes": "Rice responds well to nitrogen; apply when soil has moisture"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 2.5,
+      "with_good_management": 4.0,
+      "with_suboptimal_conditions": 1.5
+    },
+    "spacing": {
+      "between_rows_cm": 20,
+      "within_row_cm": 20,
+      "plants_per_ha": 250000
+    },
+    "water_requirement_mm": 800,
+    "pest_diseases": ["Rice Blast", "Leaf Blight", "Stem Borers", "Birds"],
+    "management_notes": [
+      "NERICA varieties are upland rice suitable for rainfed conditions",
+      "Can be direct seeded or transplanted",
+      "Requires good water management especially during flowering",
+      "Weed control critical in first 40 days",
+      "Bird scaring needed during grain maturity"
+    ],
+    "storage_requirements": "Dry to 13% moisture; store in sealed bags"
+  },
+  {
+    "crop": "Rice",
+    "variety": "NERICA 5",
+    "type": "Improved",
+    "maturity_days": 95,
+    "planting_window": ["December", "January"],
+    "acceptable_planting": ["November", "February"],
+    "main_harvest_window": ["March", "April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Clay", "Clay Loam"],
+    "altitude_range_masl": [300, 1200],
+    "recommended_fertilizers": {
+      "basal": "NPK (15:15:15)",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 150,
+        "topdress_first": 100,
+        "topdress_second": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3 weeks after planting",
+        "topdress_second": "6 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 2.3,
+      "with_good_management": 3.8,
+      "with_suboptimal_conditions": 1.3
+    },
+    "spacing": {
+      "between_rows_cm": 20,
+      "within_row_cm": 20,
+      "plants_per_ha": 250000
+    },
+    "water_requirement_mm": 850,
+    "pest_diseases": ["Rice Blast", "Stem Borers", "Birds"],
+    "management_notes": [
+      "Slightly longer maturing than NERICA 4",
+      "Good grain quality",
+      "Requires consistent moisture",
+      "Suitable for lowland and upland systems"
+    ],
+    "storage_requirements": "Dry to 13% moisture"
+  },
+  {
+    "crop": "Rice",
+    "variety": "NERICA 7",
+    "type": "Improved",
+    "maturity_days": 100,
+    "planting_window": ["December", "January"],
+    "acceptable_planting": ["November"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Clay", "Clay Loam"],
+    "altitude_range_masl": [300, 1200],
+    "recommended_fertilizers": {
+      "basal": "NPK (15:15:15)",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 150,
+        "topdress_first": 100,
+        "topdress_second": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3 weeks after planting",
+        "topdress_second": "6 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 2.6,
+      "with_good_management": 4.2,
+      "with_suboptimal_conditions": 1.4
+    },
+    "spacing": {
+      "between_rows_cm": 20,
+      "within_row_cm": 20,
+      "plants_per_ha": 250000
+    },
+    "water_requirement_mm": 875,
+    "pest_diseases": ["Rice Blast", "Leaf Blight", "Stem Borers"],
+    "management_notes": [
+      "Higher yielding NERICA variety",
+      "Requires good management for optimal yield",
+      "Plant early in window for best results"
+    ],
+    "storage_requirements": "Dry to 13% moisture"
+  },
+  {
+    "crop": "Rice",
+    "variety": "IR 2793-80-1",
+    "type": "Improved",
+    "maturity_days": 120,
+    "planting_window": ["December", "January"],
+    "acceptable_planting": ["November"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": false,
+    "irrigation_possible": true,
+    "drought_tolerance": "poor",
+    "soil_preference": ["Clay", "Heavy Clay"],
+    "altitude_range_masl": [200, 1000],
+    "recommended_fertilizers": {
+      "basal": "NPK (15:15:15)",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 200,
+        "topdress_first": 125,
+        "topdress_second": 75
+      },
+      "timing": {
+        "basal": "At transplanting",
+        "topdress_first": "3 weeks after transplanting",
+        "topdress_second": "6 weeks after transplanting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 3.5,
+      "with_good_management": 5.5,
+      "with_suboptimal_conditions": 2.0
+    },
+    "spacing": {
+      "between_rows_cm": 20,
+      "within_row_cm": 15,
+      "plants_per_ha": 333333
+    },
+    "water_requirement_mm": 1200,
+    "pest_diseases": ["Rice Blast", "Bacterial Leaf Blight", "Stem Borers"],
+    "management_notes": [
+      "Lowland irrigated rice variety",
+      "Requires standing water management",
+      "Transplanting recommended over direct seeding",
+      "High yield potential with proper water control",
+      "Not suitable for rainfed upland conditions"
+    ],
+    "storage_requirements": "Dry to 13% moisture"
+  },
+{
+  "crop": "Rice",
+  "variety": "TXD 306",
+  "type": "Improved",
+  "maturity_days": 115,
+  "planting_window": ["December", "January"],
+  "acceptable_planting": ["November"],
+  "main_harvest_window": ["April", "May"],
+  "rainfed_suitable": false,
+  "irrigation_possible": true,
+  "drought_tolerance": "poor",
+  "soil_preference": ["Clay", "Heavy Clay"],
+    "altitude_range_masl": [200, 1000],
+    "recommended_fertilizers": {
+      "basal": "NPK (15:15:15)",
+      "topdress": "Urea",
+      "application_rate_kg_per_ha": {
+        "basal": 200,
+        "topdress_first": 125,
+        "topdress_second": 75
+      },
+      "timing": {
+        "basal": "At transplanting",
+        "topdress_first": "3 weeks after transplanting",
+        "topdress_second": "6 weeks after transplanting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 3.2,
+      "with_good_management": 5.0,
+      "with_suboptimal_conditions": 1.8
+    },
+    "spacing": {
+      "between_rows_cm": 20,
+      "within_row_cm": 15,
+      "plants_per_ha": 333333
+    },
+    "water_requirement_mm": 1150,
+    "pest_diseases": ["Rice Blast", "Bacterial Leaf Blight", "Stem Borers"],
+    "management_notes": [
+      "Lowland irrigated variety",
+      "Requires controlled water management",
+      "Good milling quality",
+      "Must have irrigation infrastructure"
+    ],
+    "storage_requirements": "Dry to 13% moisture"
+  },
+  {
+    "crop": "Rice",
+    "variety": "Kalima",
+    "type": "Local",
+    "maturity_days": 130,
+    "planting_window": ["December", "January"],
+    "acceptable_planting": ["November", "February"],
+    "main_harvest_window": ["April", "May", "June"],
+    "rainfed_suitable": true,
+    "irrigation_possible": false,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Clay Loam", "Loam"],
+    "altitude_range_masl": [300, 1200],
+    "recommended_fertilizers": {
+      "basal": "Organic manure or NPK (10:10:10)",
+      "topdress": "Optional urea 50kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 100,
+        "topdress_first": 50
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "4 weeks after planting"
+      },
+      "notes": "Local variety; low input requirements; tolerates upland rainfed conditions"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.5,
+      "with_good_management": 3.0,
+      "with_suboptimal_conditions": 0.8
+    },
+    "spacing": {
+      "between_rows_cm": 20,
+      "within_row_cm": 20,
+      "plants_per_ha": 250000
+    },
+    "water_requirement_mm": 700,
+    "pest_diseases": ["Rice Blast", "Stem Borers", "Birds"],
+    "management_notes": [
+      "Suitable for upland systems",
+      "Minimal fertilizer needed",
+      "Weed control essential in first 4 weeks",
+      "Bird scaring recommended during grain maturity"
+    ],
+    "storage_requirements": "Dry to 13% moisture; store in sealed bags"
+  },
+  {
+    "crop": "Rice",
+    "variety": "Ndiwo",
+    "type": "Local",
+    "maturity_days": 135,
+    "planting_window": ["December", "January"],
+    "acceptable_planting": ["November", "February"],
+    "main_harvest_window": ["May", "June"],
+    "rainfed_suitable": true,
+    "irrigation_possible": false,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Clay Loam", "Loam"],
+    "altitude_range_masl": [300, 1200],
+    "recommended_fertilizers": {
+      "basal": "Organic manure or low rate NPK",
+      "topdress": "Optional urea",
+      "application_rate_kg_per_ha": {
+        "basal": 80,
+        "topdress_first": 30
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "4 weeks after planting"
+      },
+      "notes": "Traditional variety; adapted to local conditions; low input system"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.2,
+      "with_good_management": 2.5,
+      "with_suboptimal_conditions": 0.7
+    },
+    "spacing": {
+      "between_rows_cm": 20,
+      "within_row_cm": 20,
+      "plants_per_ha": 250000
+    },
+    "water_requirement_mm": 650,
+    "pest_diseases": ["Stem Borers", "Birds"],
+    "management_notes": [
+      "Requires minimal water",
+      "Good for upland rainfed planting",
+      "Regular weeding increases yield",
+      "Bird scaring during grain filling"
+    ],
+    "storage_requirements": "Dry to 13% moisture; store in breathable sacks"
+  },
+  {
+    "crop": "Groundnuts",
+    "variety": "Chitala",
+    "type": "Local",
+    "maturity_days": 130,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": false,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Sandy Loam", "Loam"],
+    "altitude_range_masl": [500, 1500],
+    "recommended_fertilizers": {
+      "basal": "Minimal NPK; mainly P and K",
+      "topdress": "Optional urea 20kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 50
+      },
+      "timing": {
+        "basal": "At planting"
+      },
+      "notes": "Groundnuts fix nitrogen but benefit from P and K fertilization in poor soils"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 0.8,
+      "with_good_management": 1.5,
+      "with_suboptimal_conditions": 0.5
+    },
+    "spacing": {
+      "between_rows_cm": 60,
+      "within_row_cm": 20,
+      "plants_per_ha": 83333
+    },
+    "water_requirement_mm": 450,
+    "pest_diseases": ["Aflatoxin", "Leaf Miner", "Nematodes"],
+    "management_notes": [
+      "Use well-drained soils",
+      "Rotate with cereals to prevent disease build-up",
+      "Weed control critical in first 6 weeks"
+    ],
+    "storage_requirements": "Dry to 8-10% moisture; protect from pests and aflatoxin"
+  },
+  {
+    "crop": "Groundnuts",
+    "variety": "Jengela",
+    "type": "Local",
+    "maturity_days": 120,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": false,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Sandy Loam", "Loam"],
+    "altitude_range_masl": [400, 1500],
+    "recommended_fertilizers": {
+      "basal": "Minimal NPK; P and K based on soil test",
+      "topdress": "Optional urea 20kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 40
+      },
+      "timing": {
+        "basal": "At planting"
+      },
+      "notes": "Traditional variety with good adaptation to local soils"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 0.7,
+      "with_good_management": 1.2,
+      "with_suboptimal_conditions": 0.4
+    },
+    "spacing": {
+      "between_rows_cm": 60,
+      "within_row_cm": 20,
+      "plants_per_ha": 83333
+    },
+    "water_requirement_mm": 450,
+    "pest_diseases": ["Aflatoxin", "Leaf Miner"],
+    "management_notes": [
+      "Plant on well-drained soils",
+      "Weed control essential in early growth",
+      "Rotate with cereals for soil health"
+    ],
+    "storage_requirements": "Dry to 8-10% moisture; protect from pests"
+  },
+  {
+    "crop": "Groundnuts",
+    "variety": "Nsinjiro",
+    "type": "Local",
+    "maturity_days": 135,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": false,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [500, 1600],
+    "recommended_fertilizers": {
+      "basal": "Minimal NPK; P and K as needed",
+      "topdress": "Optional urea 20kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 50
+      },
+      "timing": {
+        "basal": "At planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 0.9,
+      "with_good_management": 1.5,
+      "with_suboptimal_conditions": 0.6
+    },
+    "spacing": {
+      "between_rows_cm": 60,
+      "within_row_cm": 20,
+      "plants_per_ha": 83333
+    },
+    "water_requirement_mm": 450,
+    "pest_diseases": ["Aflatoxin", "Leaf Miner", "Nematodes"],
+    "management_notes": [
+      "Traditional variety, well adapted to local conditions",
+      "Good rotation with cereals",
+      "Harvest at full maturity to reduce aflatoxin risk"
+    ],
+    "storage_requirements": "Dry to 8-10% moisture; protect from pests"
+  },
+  {
+    "crop": "Groundnuts",
+    "variety": "CG7",
+    "type": "Improved",
+    "maturity_days": 130,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": false,
+    "drought_tolerance": "good",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [500, 1600],
+    "recommended_fertilizers": {
+      "basal": "50kg/ha NPK (15:15:15)",
+      "topdress": "Urea 20-30kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 50,
+        "topdress_first": 20
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "4 weeks after planting"
+      },
+      "notes": "Improved variety; higher yield potential with proper fertilizer application"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.2,
+      "with_good_management": 2.0,
+      "with_suboptimal_conditions": 0.7
+    },
+    "spacing": {
+      "between_rows_cm": 60,
+      "within_row_cm": 20,
+      "plants_per_ha": 83333
+    },
+    "water_requirement_mm": 500,
+    "pest_diseases": ["Aflatoxin", "Leaf Miner", "Nematodes"],
+    "management_notes": [
+      "Requires good land preparation",
+      "Responds well to balanced fertilizers",
+      "Harvest at maturity to reduce aflatoxin risk"
+    ],
+    "storage_requirements": "Dry to 8-10% moisture; protect from pests and aflatoxin"
+  },
+  {
+    "crop": "Groundnuts",
+    "variety": "Nsinjiro Improved",
+    "type": "Improved",
+    "maturity_days": 125,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": false,
+    "drought_tolerance": "good",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [500, 1600],
+    "recommended_fertilizers": {
+      "basal": "50kg/ha NPK (15:15:15)",
+      "topdress": "Urea 20kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 50,
+        "topdress_first": 20
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "4 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.3,
+      "with_good_management": 2.2,
+      "with_suboptimal_conditions": 0.8
+    },
+    "spacing": {
+      "between_rows_cm": 60,
+      "within_row_cm": 20,
+      "plants_per_ha": 83333
+    },
+    "water_requirement_mm": 480,
+    "pest_diseases": ["Aflatoxin", "Leaf Miner", "Nematodes"],
+    "management_notes": [
+      "Improved version of local variety",
+      "Better disease resistance",
+      "Higher yield potential with good management"
+    ],
+    "storage_requirements": "Dry to 8-10% moisture"
+  },
+  {
+    "crop": "Groundnuts",
+    "variety": "JL 24",
+    "type": "Improved",
+    "maturity_days": 120,
+    "planting_window": ["November", "December"],
+    "acceptable_planting": ["October", "January"],
+    "main_harvest_window": ["March", "April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": false,
+    "drought_tolerance": "very good",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [500, 1600],
+    "recommended_fertilizers": {
+      "basal": "60kg/ha NPK (15:15:15)",
+      "topdress": "Urea 25kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 60,
+        "topdress_first": 25
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "4 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.5,
+      "with_good_management": 2.5,
+      "with_suboptimal_conditions": 1.0
+    },
+    "spacing": {
+      "between_rows_cm": 60,
+      "within_row_cm": 20,
+      "plants_per_ha": 83333
+    },
+    "water_requirement_mm": 470,
+    "pest_diseases": ["Aflatoxin", "Leaf Miner"],
+    "management_notes": [
+      "Excellent drought tolerance",
+      "Early maturing variety",
+      "Good for areas with shorter rainy seasons"
+    ],
+    "storage_requirements": "Dry to 8-10% moisture"
+  },
+  {
+    "crop": "Beans",
+    "variety": "Mwasi",
+    "type": "Local",
+    "maturity_days": 90,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["February", "March", "April"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [600, 1800],
+    "recommended_fertilizers": {
+      "basal": "Low NPK; P and K emphasis",
+      "topdress": "Optional light urea",
+      "application_rate_kg_per_ha": {
+        "basal": 50
+      },
+      "timing": {
+        "basal": "At planting"
+      },
+      "notes": "Beans fix nitrogen; focus on P and K fertilization"
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 0.8,
+      "with_good_management": 1.4,
+      "with_suboptimal_conditions": 0.5
+    },
+    "spacing": {
+      "between_rows_cm": 50,
+      "within_row_cm": 15,
+      "plants_per_ha": 133333
+    },
+    "water_requirement_mm": 350,
+    "pest_diseases": ["Bean Rust", "Aphids", "Bean Fly"],
+    "management_notes": [
+      "Traditional variety with good taste",
+      "Suitable for intercropping with maize",
+      "Weed control essential in first 3 weeks"
+    ],
+    "storage_requirements": "Dry to 12% moisture; protect from weevils"
+  },
+  {
+    "crop": "Beans",
+    "variety": "Kholopera",
+    "type": "Local",
+    "maturity_days": 85,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["February", "March", "April"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [600, 1800],
+    "recommended_fertilizers": {
+      "basal": "Low NPK; P and K based",
+      "topdress": "Optional",
+      "application_rate_kg_per_ha": {
+        "basal": 40
+      },
+      "timing": {
+        "basal": "At planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 0.7,
+      "with_good_management": 1.2,
+      "with_suboptimal_conditions": 0.4
+    },
+    "spacing": {
+      "between_rows_cm": 50,
+      "within_row_cm": 15,
+      "plants_per_ha": 133333
+    },
+    "water_requirement_mm": 350,
+    "pest_diseases": ["Bean Rust", "Aphids"],
+    "management_notes": [
+      "Early maturing local variety",
+      "Good for quick harvest",
+      "Can be planted in multiple seasons"
+    ],
+    "storage_requirements": "Dry to 12% moisture"
+  },
+  {
+    "crop": "Beans",
+    "variety": "Nayela",
+    "type": "Local",
+    "maturity_days": 95,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["February", "March", "April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "moderate",
+    "soil_preference": ["Loam", "Sandy Loam", "Clay Loam"],
+    "altitude_range_masl": [600, 1900],
+    "recommended_fertilizers": {
+      "basal": "NPK (10:10:10) or P and K",
+      "topdress": "Optional",
+      "application_rate_kg_per_ha": {
+        "basal": 50
+      },
+      "timing": {
+        "basal": "At planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 0.9,
+      "with_good_management": 1.5,
+      "with_suboptimal_conditions": 0.5
+    },
+    "spacing": {
+      "between_rows_cm": 50,
+      "within_row_cm": 15,
+      "plants_per_ha": 133333
+    },
+    "water_requirement_mm": 380,
+    "pest_diseases": ["Bean Rust", "Aphids", "Bean Fly"],
+    "management_notes": [
+      "Adapted to wide altitude range",
+      "Good seed saving capability",
+      "Popular for local consumption"
+    ],
+    "storage_requirements": "Dry to 12% moisture"
+  },
+  {
+    "crop": "Beans",
+    "variety": "Kalima",
+    "type": "Improved",
+    "maturity_days": 80,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["February", "March", "April"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "good",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [600, 1800],
+    "recommended_fertilizers": {
+      "basal": "NPK (15:15:15)",
+      "topdress": "Optional urea 20kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 60,
+        "topdress_first": 20
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.2,
+      "with_good_management": 1.8,
+      "with_suboptimal_conditions": 0.7
+    },
+    "spacing": {
+      "between_rows_cm": 50,
+      "within_row_cm": 10,
+      "plants_per_ha": 200000
+    },
+    "water_requirement_mm": 400,
+    "pest_diseases": ["Bean Rust", "Aphids", "Angular Leaf Spot"],
+    "management_notes": [
+      "Fast maturing improved variety",
+      "Higher yield potential",
+      "Responds well to fertilizer"
+    ],
+    "storage_requirements": "Dry to 12% moisture"
+  },
+  {
+    "crop": "Beans",
+    "variety": "Kablanketi",
+    "type": "Improved",
+    "maturity_days": 85,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["February", "March", "April"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "good",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [600, 1800],
+    "recommended_fertilizers": {
+      "basal": "NPK (15:15:15)",
+      "topdress": "Optional urea 20kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 60,
+        "topdress_first": 20
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.3,
+      "with_good_management": 2.0,
+      "with_suboptimal_conditions": 0.8
+    },
+    "spacing": {
+      "between_rows_cm": 50,
+      "within_row_cm": 10,
+      "plants_per_ha": 200000
+    },
+    "water_requirement_mm": 410,
+    "pest_diseases": ["Bean Rust", "Aphids", "Angular Leaf Spot"],
+    "management_notes": [
+      "Good disease resistance",
+      "Suitable for sole cropping or intercropping",
+      "Responsive to good management"
+    ],
+    "storage_requirements": "Dry to 12% moisture"
+  },
+  {
+    "crop": "Beans",
+    "variety": "Kanyani",
+    "type": "Improved",
+    "maturity_days": 90,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["February", "March", "April", "May"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "very good",
+    "soil_preference": ["Loam", "Sandy Loam", "Clay Loam"],
+    "altitude_range_masl": [600, 1900],
+    "recommended_fertilizers": {
+      "basal": "NPK (15:15:15)",
+      "topdress": "Urea 25kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 70,
+        "topdress_first": 25
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.4,
+      "with_good_management": 2.2,
+      "with_suboptimal_conditions": 0.9
+    },
+    "spacing": {
+      "between_rows_cm": 50,
+      "within_row_cm": 10,
+      "plants_per_ha": 200000
+    },
+    "water_requirement_mm": 390,
+    "pest_diseases": ["Bean Rust", "Aphids"],
+    "management_notes": [
+      "Excellent drought tolerance",
+      "Wide adaptability",
+      "High yield potential with proper management"
+    ],
+    "storage_requirements": "Dry to 12% moisture"
+  },
+  {
+    "crop": "Beans",
+    "variety": "MW 348",
+    "type": "Improved",
+    "maturity_days": 75,
+    "planting_window": ["November", "December", "January"],
+    "acceptable_planting": ["October", "February"],
+    "main_harvest_window": ["January", "February", "March", "April"],
+    "rainfed_suitable": true,
+    "irrigation_possible": true,
+    "drought_tolerance": "good",
+    "soil_preference": ["Loam", "Sandy Loam"],
+    "altitude_range_masl": [600, 1800],
+    "recommended_fertilizers": {
+      "basal": "NPK (15:15:15)",
+      "topdress": "Urea 20kg/ha",
+      "application_rate_kg_per_ha": {
+        "basal": 65,
+        "topdress_first": 20
+      },
+      "timing": {
+        "basal": "At planting",
+        "topdress_first": "3 weeks after planting"
+      }
+    },
+    "yield_estimate_tonnes_per_ha": {
+      "average": 1.1,
+      "with_good_management": 1.7,
+      "with_suboptimal_conditions": 0.7
+    },
+    "spacing": {
+      "between_rows_cm": 50,
+      "within_row_cm": 10,
+      "plants_per_ha": 200000
+    },
+    "water_requirement_mm": 370,
+    "pest_diseases": ["Bean Rust", "Aphids", "Angular Leaf Spot"],
+    "management_notes": [
+      "Very early maturing variety",
+      "Ideal for areas with short rainy seasons",
+      "Can fit in multiple cropping systems"
+    ],
+    "storage_requirements": "Dry to 12% moisture"
+  }
+]
