@@ -22,7 +22,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://crop-advisory-delta.vercel.app"
+        "http://localhost:3001", 
+        "https://crop-advisory-delta.vercel.app",
+        "https://*.vercel.app",  # Allow all Vercel preview deployments
+        "*"  # TEMPORARY: Allow all origins for debugging (remove in production)
     ],
     allow_credentials=True,
     allow_methods=["*"],
