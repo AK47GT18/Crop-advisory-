@@ -69,7 +69,7 @@ const Advisory: React.FC = () => {
   const [error, setError] = useState<string>('');
   const [isInitializing, setIsInitializing] = useState<boolean>(true);
 
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://agriseed.onrender.com';
 
   // Crop varieties database (local fallback)
   const cropDatabase: Record<string, Record<string, string[]>> = {
