@@ -79,7 +79,7 @@ const PestDoctor: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://agriseed.onrender.com';
+      const apiUrl = 'https://agriseed.onrender.com';
       const res = await fetch(`${apiUrl}/diagnose?query=${encodeURIComponent(query)}`);
       
       if (!res.ok) {
@@ -116,7 +116,7 @@ const PestDoctor: React.FC = () => {
       
       // Save feedback (optional)
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://agriseed.onrender.com';
+        const apiUrl = 'https://agriseed.onrender.com';
         await fetch(`${apiUrl}/feedback`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
