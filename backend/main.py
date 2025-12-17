@@ -1,4 +1,4 @@
-# backend/main.py
+# backend/main.py - COMPLETE FIXED VERSION
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -18,13 +18,34 @@ load_dotenv()
 
 app = FastAPI()
 
+# ===================================================================
+# CRITICAL: CORS MUST BE ADDED BEFORE ANY ROUTES
+# ===================================================================
+
+# Option 1: Simple - Allow Everything (Development)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins
-    allow_credentials=False,  # Must be False when using "*"
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Option 2: Secure - Specific Origins (Production)
+# Uncomment this and comment out Option 1 for production
+"""
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:3001",
+        "https://crop-advisory-delta.vercel.app",
+    ],
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["*"],
+)
+"""
 
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
 
