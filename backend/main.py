@@ -22,30 +22,21 @@ app = FastAPI()
 # CRITICAL: CORS MUST BE ADDED BEFORE ANY ROUTES
 # ===================================================================
 
-# Option 1: Simple - Allow Everything (Development)
+ALLOWED_ORIGINS = os.getenv(
+    "ALLOWED_ORIGINS",
+    "http://localhost:3000,http://localhost:3001,https://crop-advisory-delta.vercel.app"
+).split(",")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=False,
-    allow_methods=["*"],
+    allow_origins=ALLOWED_ORIGINS,  # Specific origins
+    allow_credentials=True,  # Important: set to True
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
+    expose_headers=["*"],
+    max_age=3600,  # Cache preflight requests for 1 hour
 )
 
-# Option 2: Secure - Specific Origins (Production)
-# Uncomment this and comment out Option 1 for production
-"""
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://localhost:3001",
-        "https://crop-advisory-delta.vercel.app",
-    ],
-    allow_credentials=True,
-    allow_methods=["GET", "POST", "OPTIONS"],
-    allow_headers=["*"],
-)
-"""
 
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
 
