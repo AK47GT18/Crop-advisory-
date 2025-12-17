@@ -20,14 +20,8 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://localhost:3001", 
-        "https://crop-advisory-delta.vercel.app",
-        "https://*.vercel.app",  # Allow all Vercel preview deployments
-        "*"  # TEMPORARY: Allow all origins for debugging (remove in production)
-    ],
-    allow_credentials=True,
+    allow_origins=["*"],  # Allow all origins
+    allow_credentials=False,  # Must be False when using "*"
     allow_methods=["*"],
     allow_headers=["*"],
 )
