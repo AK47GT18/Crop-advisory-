@@ -45,7 +45,7 @@ const Weather: React.FC = () => {
 
     const fetchWeatherForLocation = async (lat: number, lon: number) => {
       try {
-        const res = await fetch(`http://localhost:8000/weather?lat=${lat}&lon=${lon}`);
+        const res = await fetch(`https://agriseed.onrender.com/weather?lat=${lat}&lon=${lon}`);
         if (!res.ok) throw new Error("Failed to fetch weather data from backend.");
         const data = await res.json();
         // Save to cache
